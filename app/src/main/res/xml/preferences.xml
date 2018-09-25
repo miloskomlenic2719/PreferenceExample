@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="example_switch"
+        android:summary="Turn this option on or off"
+        android:title="@string/switchTitle" />
+
+    <EditTextPreference
+        android:defaultValue="None"
+        android:key="example_edit"
+        android:singleLine="true"
+        android:title="Edit text preference" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="example_checkbox"
+        android:summary="Turn this option on to enable or off to disable sound"
+        android:title="Enable sound" />
+
+
+</PreferenceScreen>
